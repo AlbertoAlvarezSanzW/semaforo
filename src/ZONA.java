@@ -15,7 +15,7 @@ public class ZONA {
 
         available.acquire();
         System.out.println("Entran los participantes que estaban en espera" + jugador.getName());
-        Thread.sleep(2000);
+        Thread.sleep(5000);
 
         if (!losPrimeros(jugador)){
             System.out.println("Comienzan a pegarse " + jugador.getName());
